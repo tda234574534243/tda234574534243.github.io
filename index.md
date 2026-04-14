@@ -3,13 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Trần Đức Anh</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background: #f4f4f4; }
-        header { text-align: center; background: #333; color: #fff; padding: 1rem; }
-        section { background: #fff; padding: 20px; margin-top: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; }
-        .project-img { width: 100%; max-width: 500px; border-radius: 5px; margin: 10px 0; }
-    </style>
+<style>
+    :root {
+        --neon-green: #00ff41;
+        --dark-bg: #0d0d0d;
+        --card-bg: #1a1a1a;
+    }
+    body { 
+        font-family: 'Courier New', Courier, monospace; 
+        line-height: 1.6; 
+        max-width: 900px; 
+        margin: auto; 
+        padding: 20px; 
+        background: var(--dark-bg); 
+        color: white;
+    }
+    header { 
+        text-align: center; 
+        padding: 2rem; 
+        border: 1px solid var(--neon-green);
+        box-shadow: 0 0 15px var(--neon-green);
+        margin-bottom: 30px;
+    }
+    section { 
+        background: var(--card-bg); 
+        padding: 25px; 
+        margin-top: 25px; 
+        border-left: 5px solid var(--neon-green);
+        border-radius: 4px;
+    }
+    h1, h2, h3 { color: var(--neon-green); text-transform: uppercase; }
+    h2 { border-bottom: 1px solid #333; padding-bottom: 10px; letter-spacing: 2px; }
+    a { color: var(--neon-green); text-decoration: none; font-weight: bold; }
+    a:hover { text-decoration: underline; color: #fff; }
+    .project-img { 
+        width: 100%; 
+        max-width: 600px; 
+        border: 1px solid #444; 
+        margin: 15px 0;
+        filter: grayscale(50%);
+        transition: 0.3s;
+    }
+    .project-img:hover { filter: grayscale(0%); border-color: var(--neon-green); }
+    ul { list-style-type: "=> "; }
+    li { margin-bottom: 10px; }
+</style>
 </head>
 <body>
     <header>
