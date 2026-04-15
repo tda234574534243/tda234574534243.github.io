@@ -17,7 +17,6 @@ Trang portfolio cá nhân dùng để giới thiệu chuyên môn, dự án và 
 
 - Tách CSS ra `assets/css/style.css` để dễ tùy chỉnh.
 - Cải thiện bố cục: thêm thanh điều hướng, lưới dự án, và khung hiển thị thông tin.
-- Đã loại bỏ phần "Quá trình thực hiện" theo yêu cầu; có thể thêm lại khi cần.
 
 ## Xem trang trên máy local
 
