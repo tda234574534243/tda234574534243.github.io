@@ -1,0 +1,27 @@
+:root{
+    --bg: #0d0d0d;
+    --card: #121212;
+    --accent: #00ff7a;
+    --muted: #9aa0a6;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:#e9eef1;margin:0}
+.container{max-width:980px;margin:24px auto;padding:0 20px}
+.site-header{border-bottom:1px solid rgba(255,255,255,0.04);padding:28px 0;text-align:center}
+.site-header h1{margin:0;font-size:28px;color:var(--accent);letter-spacing:1px}
+.tagline{color:var(--muted);margin:6px 0 12px}
+.nav{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.nav a{color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:6px}
+.nav a:hover{color:#fff;background:rgba(255,255,255,0.03)}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:20px;border-radius:8px;margin:18px 0;border:1px solid rgba(255,255,255,0.03)}
+h2{color:var(--accent);margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.project{background:rgba(0,0,0,0.2);padding:14px;border-radius:8px}
+.project h3{margin:0 0 8px;color:#fff}
+.cert-list{padding-left:18px;color:var(--muted)}
+.process{display:flex;gap:18px;flex-wrap:wrap}
+.process figure{margin:0;background:#0b0b0b;padding:8px;border-radius:6px;max-width:320px}
+.process img{display:block;width:100%;height:auto}
+.process figcaption{color:var(--muted);font-size:14px;margin-top:8px}
+.contact a{color:var(--accent)}
+@media (max-width:520px){.nav{gap:8px}.site-header h1{font-size:22px}}

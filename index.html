@@ -17,85 +17,73 @@
             margin: auto; 
             padding: 20px; 
             background: var(--dark-bg); 
-            color: white;
-        }
-        header { 
-            text-align: center; 
-            padding: 2rem; 
-            border: 1px solid var(--neon-green);
-            box-shadow: 0 0 15px var(--neon-green);
-            margin-bottom: 30px;
-        }
-        section { 
-            background: var(--card-bg); 
-            padding: 25px; 
-            margin-top: 25px; 
-            border-left: 5px solid var(--neon-green);
-            border-radius: 4px;
-        }
-        h1, h2, h3 { color: var(--neon-green); text-transform: uppercase; margin-top: 0; }
-        h2 { border-bottom: 1px solid #333; padding-bottom: 10px; letter-spacing: 2px; }
-        
-        /* Link kiểu bình thường */
-        a { 
-            color: var(--neon-green); 
-            text-decoration: underline; 
-        }
-        a:hover { 
-            color: #fff; 
-        }
-
-        ul { list-style-type: "=> "; padding-left: 20px; }
-        li { margin-bottom: 10px; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>TRẦN ĐỨC ANH</h1>
-        <p>Pentester | Offensive Security | Rank Ruby TryHackMe</p>
-    </header>
-
-    <section id="gioi-thieu">
-        <h2>1. Giới thiệu</h2>
-        <p>Sinh viên năm 3 chuyên ngành An toàn thông tin tại ĐH Sư phạm TP.HCM. Tập trung nghiên cứu về Web Exploitation, Active Directory và Privilege Escalation.</p>
-    </section>
-
-    <section id="qua-trinh">
-        <h2>5. Quá trình thực hiện</h2>
-        <p>Dưới đây là các bước tôi đã thực hiện để hoàn thiện portfolio và một số ảnh mô tả từng bước:</p>
-        <h3>Bước 1 — Lập kế hoạch</h3>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Portfolio | Trần Đức Anh</title>
+                <link rel="stylesheet" href="assets/css/style.css">
         <p>Xác định nội dung: Giới thiệu, Dự án, Chứng chỉ, Liên hệ, và phần trình bày quá trình.</p>
         <img src="assets/images/process-1.svg" alt="Quá trình - lập kế hoạch" style="max-width:100%;border:1px solid #222;margin-top:10px;">
+                <header class="site-header">
+                    <div class="container">
+                        <h1>Trần Đức Anh</h1>
+                        <p class="tagline">Pentester • Web Exploitation • Offensive Security</p>
+                        <nav class="nav">
+                            <a href="#gioi-thieu">Giới thiệu</a>
+                            <a href="#du-an">Dự án</a>
+                            <a href="#chung-chi">Chứng chỉ</a>
+                            <a href="#qua-trinh">Quá trình</a>
+                            <a href="#lien-he">Liên hệ</a>
+                        </nav>
+                    </div>
+                </header>
 
-        <h3>Bước 2 — Thiết kế & Xây dựng</h3>
-        <p>Viết HTML/CSS, tối ưu cho GitHub Pages và thêm hình ảnh minh họa.</p>
-        <img src="assets/images/process-2.svg" alt="Quá trình - xây dựng" style="max-width:100%;border:1px solid #222;margin-top:10px;">
+                <main class="container">
+                    <section id="gioi-thieu" class="card">
+                        <h2>Giới thiệu</h2>
+                        <p>Sinh viên năm 3 chuyên ngành An toàn thông tin tại ĐH Sư phạm TP.HCM. Tập trung nghiên cứu Web Exploitation, Active Directory và Privilege Escalation. Đam mê phân tích lỗ hổng và bảo mật hệ thống.</p>
+                    </section>
 
-        <h3>Bước 3 — Triển khai</h3>
-        <p>Đẩy mã lên repository có tên <code>tda234574534243.github.io</code> để GitHub Pages tự động phục vụ trang.</p>
-    </section>
-    <section id="du-an">
-        <h2>2. Dự án tiêu biểu</h2>
-        <h3>Dự án KATStore (E-commerce)</h3>
-        <p>Phân tích lỗ hổng Web theo chuẩn OWASP và áp dụng mã hóa AES-256 bảo vệ dữ liệu.</p>
-        <p>Source code: <a href="https://github.com/khoa0z0x0z/Gear-ecommerce-CNW" target="_blank">https://github.com/khoa0z0x0z/Gear-ecommerce-CNW</a></p>
+                    <section id="du-an" class="card">
+                        <h2>Dự án tiêu biểu</h2>
+                        <div class="grid">
+                            <div class="project">
+                                <h3>KATStore (E-commerce)</h3>
+                                <p>Phân tích lỗ hổng web theo OWASP, cải thiện bảo mật và mã hóa dữ liệu.</p>
+                                <p>Source: <a href="https://github.com/khoa0z0x0z/Gear-ecommerce-CNW" target="_blank">github.com/khoa0z0x0z/Gear-ecommerce-CNW</a></p>
+                            </div>
+                            <div class="project">
+                                <h3>Lab Pentesting</h3>
+                                <p>Chuỗi tấn công trên máy mục tiêu (ví dụ Kobold): khai thác web, leo thang đặc quyền.</p>
+                            </div>
+                        </div>
+                    </section>
 
-        <h3>Lab Pentesting (Hack The Box)</h3>
-        <p>Thực hiện attack chain trên các máy như Kobold: Khai thác lỗi web, leo thang đặc quyền qua Docker group.</p>
-    </section>
+                    <section id="chung-chi" class="card">
+                        <h2>Chứng chỉ</h2>
+                        <ul class="cert-list">
+                            <li>Advent of Cyber (TryHackMe) — 2022–2025</li>
+                            <li>Cisco Introduction to Cybersecurity</li>
+                        </ul>
+                    </section>
 
-    <section id="chung-chi">
-        <h2>3. Chứng chỉ</h2>
-        <ul>
-            <li>Advent of Cyber (2022-2025) - TryHackMe</li>
-            <li>Cisco Introduction to Cybersecurity</li>
-        </ul>
-    </section>
+                    <section id="qua-trinh" class="card">
+                        <h2>Quá trình thực hiện</h2>
+                        <p>Dưới đây là các bước phát triển portfolio và ảnh minh họa từng bước.</p>
+                        <div class="process">
+                            <figure>
+                                <img src="assets/images/process-1.svg" alt="Lập kế hoạch">
+                                <figcaption>Lập kế hoạch</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="assets/images/process-2.svg" alt="Thiết kế & Xây dựng">
+                                <figcaption>Thiết kế & Xây dựng</figcaption>
+                            </figure>
+                        </div>
+                    </section>
 
-    <section id="lien-he">
-        <h2>4. Liên hệ</h2>
-        <p>Email: 4901104005@student.hcmue.edu.vn</p>
-        <p>GitHub Profile: <a href="https://github.com/tda234574534243" target="_blank">github.com/tda234574534243</a></p>
-    </section>
-</body>
-</html>
+                    <section id="lien-he" class="card contact">
+                        <h2>Liên hệ</h2>
+                        <p>Email: <a href="mailto:4901104005@student.hcmue.edu.vn">4901104005@student.hcmue.edu.vn</a></p>
+                        <p>GitHub: <a href="https://github.com/tda234574534243" target="_blank">github.com/tda234574534243</a></p>
+                    </section>
+                </main>

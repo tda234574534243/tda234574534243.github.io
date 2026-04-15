@@ -1,36 +1,44 @@
 # Portfolio — Trần Đức Anh
 
-Trang này là portfolio cá nhân được triển khai qua GitHub Pages từ repository `tda234574534243.github.io`.
+Portfolio cá nhân được triển khai bằng GitHub Pages. Nội dung đã được cải tiến về mặt bố cục và giao diện.
 
 ## Link Website
 
 - https://tda234574534243.github.io/
 
-## Nội dung
+## Nội dung (bao gồm)
 
-- **Giới thiệu**: Tóm tắt về bản thân và thế mạnh.
-- **Dự án**: Liệt kê dự án tiêu biểu và link source (nếu có).
-- **Chứng chỉ**: Các chứng chỉ, thành tích đã đạt.
-- **Quá trình thực hiện**: Mô tả các bước phát triển và ảnh minh hoạ.
-- **Liên hệ**: Email và liên kết GitHub.
+- **Giới thiệu**: Tóm tắt chuyên môn, sở thích và mục tiêu.
+- **Dự án**: Mô tả dự án tiêu biểu kèm link source khi có.
+- **Chứng chỉ**: Danh sách chứng chỉ và thành tích liên quan.
+- **Quá trình thực hiện**: Các bước phát triển kèm ảnh minh họa.
+- **Liên hệ**: Email và liên kết mạng xã hội/GitHub.
+
+## Thay đổi chính vừa thực hiện
+
+- Tách CSS ra file `assets/css/style.css` và cải thiện giao diện.
+- Thêm thanh điều hướng, bố cục lưới cho dự án và khung hiển thị chứng chỉ.
+- Thêm phần `Quá trình thực hiện` với ảnh minh họa (placeholder).
 
 ## Cách xem trên local
 
-1. Mở `index.html` trong trình duyệt (double-click) hoặc dùng một server tĩnh:
+1. Mở `index.html` trong trình duyệt hoặc chạy server tĩnh:
 
 ```bash
-# from repository root
 python -m http.server 8000
-# then open http://localhost:8000
+# rồi mở http://localhost:8000
 ```
 
-## Thay đổi nội dung
+## Hướng dẫn chỉnh sửa
 
-- Để cập nhật thông tin, chỉnh sửa `index.html` trực tiếp.
-- Thêm ảnh vào thư mục `assets/images` và cập nhật đường dẫn trong trang.
-- Nếu bạn muốn tôi nhập nội dung chi tiết từ file `quá trình.docx`, vui lòng upload file đó vào thư mục repo hoặc dán nội dung ở đây.
+- Chỉnh nội dung: sửa `index.html` trong các phần `#gioi-thieu`, `#du-an`, `#chung-chi`, `#qua-trinh`, `#lien-he`.
+- Thêm ảnh thật: bỏ ảnh mới vào `assets/images` và thay đường dẫn.
+- Chỉnh CSS: sửa `assets/css/style.css` nếu muốn đổi màu hoặc font.
 
-## Ghi chú
+## Nếu muốn tôi làm thêm
 
-- Các ảnh `process-1.svg` và `process-2.svg` là placeholder; thay bằng ảnh thực tế mô tả quá trình.
-# tda234574534243.github.io
+- Nhập nội dung chi tiết từ file `quá trình.docx` vào phần `Quá trình thực hiện` và thay ảnh placeholder bằng ảnh thật (tôi có thể trích nội dung nếu bạn upload file hoặc dán nội dung ở đây).
+- Tối ưu SEO, thêm favicon, và cải thiện responsive nếu bạn muốn.
+
+---
+Portfolio generated and styled for GitHub Pages.
