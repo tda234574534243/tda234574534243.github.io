@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#0d0d0d"/>
+  <text x="40" y="60" fill="#00ff41" font-family="Arial" font-size="26">Bước 2: Thiết kế & Xây dựng</text>
+  <text x="40" y="100" fill="#ccc" font-family="Arial" font-size="16">- Viết HTML, CSS, tối ưu cho GitHub Pages</text>
+  <text x="40" y="130" fill="#ccc" font-family="Arial" font-size="16">- Thêm minh hoạ và mô tả quá trình</text>
+</svg>
